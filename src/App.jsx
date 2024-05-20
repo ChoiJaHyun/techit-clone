@@ -3,6 +3,7 @@ import TopBanner from "./components/TopBanner";
 import Header from "./components/Header";
 import SlideBanner from "./components/SlideBanner";
 import KdtSection from "./components/KdtSection";
+import ScheduleSection from "./components/ScheduleSection";
 
 const App = () => {
   const [isViewed, setIsViewed] = useState(false);
@@ -21,6 +22,7 @@ const App = () => {
       <Header />
       <SlideBanner />
       <KdtSection />
+      <ScheduleSection />
     </div>
   );
 };
