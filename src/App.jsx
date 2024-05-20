@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import TopBanner from "./components/TopBanner";
 import Header from "./components/Header";
 import SlideBanner from "./components/SlideBanner";
+import Spline from "@splinetool/react-spline";
 
 const App = () => {
   const [isViewed, setIsViewed] = useState(false);
@@ -19,6 +20,9 @@ const App = () => {
       {!isViewed && <TopBanner setIsViewed={setIsViewed} />}
       <Header />
       <SlideBanner />
+      <div>
+        <Spline scene="https://prod.spline.design/rHjm3vB7zevlavRW/scene.splinecode" />
+      </div>
     </div>
   );
 };
