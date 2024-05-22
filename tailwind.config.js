@@ -6,6 +6,7 @@ export default {
       colors: {
         "techit-main": "#ff7710",
         "techit-gray": {
+          50: "#f5f5f5",
           100: "#e5e5e5",
           150: "#a3a3a3",
           200: "#737373",

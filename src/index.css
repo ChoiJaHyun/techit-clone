@@ -77,7 +77,15 @@
 }
 
 @layer components {
+  .container-style {
+    @apply max-w-screen-xl mx-auto;
+  }
+
   .nav-button-style {
     @apply px-4 py-5 font-semibold text-techit-gray-300;
+  }
+
+  .card-tag-style {
+    @apply bg-techit-gray-50 text-techit-gray-200 px-1 py-[2px] rounded-md text-sm;
   }
 }
